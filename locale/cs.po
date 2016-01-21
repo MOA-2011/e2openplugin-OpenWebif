@@ -1,0 +1,1292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWebif\n"
+"POT-Creation-Date: 2014-11-01 19:04+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ims <ims21@users.sourceforge.net>\n"
+"Language-Team: PLi\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../plugin\n"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "LCD4Linux Setup"
+msgstr "Nastavení LCD4Linux"
+
+msgid "AutoTimer"
+msgstr ""
+
+msgid "BouquetEditor"
+msgstr "Editor přehledů"
+
+msgid "EPGRefresh"
+msgstr ""
+
+msgid "IPv4-only kernel"
+msgstr ""
+
+msgid "IPv4-only Python/Twisted"
+msgstr ""
+
+msgid "none/IPv4-only network"
+msgstr "žádná/pouze IPv4 síť"
+
+msgid "Message sent successfully!"
+msgstr "Zpráva úspěšně odeslána!"
+
+msgid "No answer in time"
+msgstr "Žádná odpověď v čase"
+
+msgid "Answer is YES!"
+msgstr "Odpověď je ANO!"
+
+msgid "Answer is NO!"
+msgstr "Odpověď je NE!"
+
+msgid "New"
+msgstr "Nový"
+
+msgid "Services"
+msgstr "Programy"
+
+msgid "Cable"
+msgstr "Kabelové"
+
+msgid "Terrestrial"
+msgstr "Pozemní"
+
+msgid "W"
+msgstr "W"
+
+msgid "E"
+msgstr "E"
+
+#, python-format
+msgid "Missing mandatory parameter '%s'"
+msgstr "Chybí povinný parametr '%s'"
+
+#, python-format
+msgid "The parameter '%s' can't be empty"
+msgstr "Parametr '%s' nemůže být prázdný"
+
+#, python-format
+msgid "Wrong parameter format 'set=%s'. Use set=set15 "
+msgstr ""
+
+#, python-format
+msgid "Unknown Volume command %s"
+msgstr ""
+
+msgid "The parameter 'command' must be a number"
+msgstr "Parametr 'command' musí být číslo"
+
+#, python-format
+msgid "type %s is not a number"
+msgstr "%s není číslo"
+
+msgid "Mo"
+msgstr "Po"
+
+msgid "Tu"
+msgstr "Út"
+
+msgid "We"
+msgstr "St"
+
+msgid "Th"
+msgstr "Čt"
+
+msgid "Fr"
+msgstr "Pá"
+
+msgid "Sa"
+msgstr "So"
+
+msgid "Su"
+msgstr "Ne"
+
+msgid "Sun"
+msgstr "Ne"
+
+msgid "Mon"
+msgstr "Po"
+
+msgid "Tue"
+msgstr "Út"
+
+msgid "Wed"
+msgstr "St"
+
+msgid "Thu"
+msgstr "Čt"
+
+msgid "Fri"
+msgstr "Pá"
+
+msgid "Sat"
+msgstr "So"
+
+msgid "Monday"
+msgstr "Pondělí"
+
+msgid "Tuesday"
+msgstr "Úterý"
+
+msgid "Wednesday"
+msgstr "Strředa"
+
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+msgid "Friday"
+msgstr "Pátek"
+
+msgid "Saturday"
+msgstr "Sobota"
+
+msgid "Sunday"
+msgstr "Neděle"
+
+msgid "January"
+msgstr "Leden"
+
+msgid "February"
+msgstr "Únor"
+
+msgid "March"
+msgstr "Březen"
+
+msgid "April"
+msgstr "Duben"
+
+msgid "May"
+msgstr "Květen"
+
+msgid "June"
+msgstr "Červen"
+
+msgid "July"
+msgstr "Červenec"
+
+msgid "August"
+msgstr "Srpen"
+
+msgid "September"
+msgstr "Září"
+
+msgid "October"
+msgstr "Říjen"
+
+msgid "November"
+msgstr "Listopad"
+
+msgid "December"
+msgstr "Prosinec"
+
+msgid "About"
+msgstr "O prohlížeči"
+
+msgid "Add Timer"
+msgstr "Přidat časovač"
+
+msgid "Add AutoTimer"
+msgstr "Přidat AutoTimer"
+
+msgid "Add Zap Timer"
+msgstr "Přidat časovač přepnutí"
+
+msgid "After Event"
+msgstr "Po skončení"
+
+msgid "AGC"
+msgstr ""
+
+msgid "All"
+msgstr "Vše"
+
+msgid "All Channels"
+msgstr "Všechny kanály"
+
+msgid "Authors"
+msgstr "Autoři"
+
+msgid "Auto"
+msgstr ""
+
+msgid "Back"
+msgstr "Zpět"
+
+msgid "Begin"
+msgstr "Začátek"
+
+msgid "BER"
+msgstr ""
+
+msgid "Bouquets"
+msgstr "Přehledy"
+
+msgid "Box Info"
+msgstr "O přijímači"
+
+msgid "Box"
+msgstr "Přijímač"
+
+msgid "Box Control"
+msgstr "Ovládání boxu"
+
+msgid "Box Uptime"
+msgstr "Doba provozu"
+
+msgid "Brand"
+msgstr "Značka"
+
+msgid "Cancel"
+msgstr "Zavřít"
+
+msgid "Capacity"
+msgstr "Kapacita"
+
+msgid "Channel"
+msgstr "Kanál"
+
+msgid "Channels"
+msgstr "Kanály"
+
+msgid "Chipset"
+msgstr ""
+
+msgid "Cleanup Timers"
+msgstr "Vyčistit časovače"
+
+msgid "Contributors"
+msgstr "Spolupracovníci"
+
+msgid "Control"
+msgstr ""
+
+msgid "Current"
+msgstr "Aktuální"
+
+msgid "Current Event"
+msgstr "Aktuální událost"
+
+msgid "Deep-Standby"
+msgstr "Hluboký spánek"
+
+msgid "Default"
+msgstr "Standardní"
+
+msgid "Delete Recording"
+msgstr "odstranit film"
+
+msgid "Really delete the recording"
+msgstr "Opravdu smazat film"
+
+msgid "Delete Timer"
+msgstr "Odstranit časovač"
+
+msgid "Really delete the timer"
+msgstr "Opravdu odstranit časovač"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "DHCP"
+msgstr ""
+
+msgid "Disable Timer"
+msgstr "Zakázat časovač"
+
+msgid "Dolby"
+msgstr ""
+
+msgid "Done"
+msgstr "Dokončeno"
+
+msgid "Download"
+msgstr "stáhnout"
+
+msgid "Download Playlist for"
+msgstr "stahnout playlist pro"
+
+msgid "Duration"
+msgstr "Délka"
+
+msgid "Edit Timer"
+msgstr "Upravit časovač"
+
+msgid "Enable Timer"
+msgstr "Povolit časovač"
+
+msgid "Start"
+msgstr "Začátek"
+
+msgid "End"
+msgstr "Konec"
+
+msgid "Enabled"
+msgstr "Povolen"
+
+msgid "Encrypted"
+msgstr "Kódováno"
+
+msgid "EPG"
+msgstr ""
+
+msgid "Epg Search"
+msgstr "Hledat v EPG"
+
+msgid "Error"
+msgstr "Chyba"
+
+msgid "Every"
+msgstr ""
+
+msgid "Extras"
+msgstr "Další"
+
+msgid "finished"
+msgstr "dokončeno"
+
+msgid "Firmware version"
+msgstr "Firmware"
+
+msgid "Frontprocessor Version"
+msgstr " Frontprocesor"
+
+msgid "Free"
+msgstr "Volné místo"
+
+msgid "Free Memory"
+msgstr "Volná paměť"
+
+msgid "Gateway"
+msgstr "Brána"
+
+msgid "Grab Screenshot"
+msgstr "Snímek obrazovky"
+
+msgid "Gui version"
+msgstr "Enigma"
+
+msgid "Hide full remote"
+msgstr "obecný ovladač"
+
+msgid "High Resolution"
+msgstr "Vysoké rozlišení"
+
+msgid "Hard disk model"
+msgstr "HDD model"
+
+msgid "Hour"
+msgstr "Hodiny"
+
+msgid "IP address"
+msgstr "IP adresa"
+
+msgid "IPv6 address(es)"
+msgstr "IPv6 adresa(y)"
+
+msgid "Infos"
+msgstr "Informace"
+
+msgid "Instant Record"
+msgstr "Okamžité nahrávání"
+
+msgid "Javascript Libraries"
+msgstr "Javascript knihovny"
+
+msgid "Just play"
+msgstr "Jen přepnout"
+
+msgid "Kernel version"
+msgstr "Verze jádra"
+
+msgid "LICENSE"
+msgstr "LICENCE"
+
+msgid "loading"
+msgstr "načítám"
+
+msgid "Location"
+msgstr "Umístění"
+
+msgid "Locked"
+msgstr "Zamknuto"
+
+msgid "MAC address"
+msgstr "MAC adresa"
+
+msgid "Main"
+msgstr "Hlavní"
+
+msgid "Minute"
+msgstr "Minuty"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Movielist"
+msgstr "Seznam filmů"
+
+msgid "Movies"
+msgstr "Filmy"
+
+msgid "MultiEPG"
+msgstr ""
+
+msgid "Name"
+msgstr "Název"
+
+msgid "Namespace"
+msgstr ""
+
+msgid "Network Interface"
+msgstr "Síťový adaptér"
+
+msgid "no description available"
+msgstr "popis není k dispozici"
+
+msgid "Sorry this page is not yet implemented"
+msgstr "Tato stránka není zatím implementována"
+
+msgid "Nothing"
+msgstr "Nic"
+
+msgid "Nothing playing."
+msgstr "Nic se nepřehrává."
+
+msgid "Now"
+msgstr "Nyní"
+
+msgid "On"
+msgstr ""
+
+msgid "Open Source Web Interface for Linux set-top box"
+msgstr "Open Source Web Interface pro linuxový set-top box"
+
+msgid "Show box name in header"
+msgstr "Zobrazovat v záhlaví název přijímače"
+
+msgid "Use custom box name"
+msgstr "Použít vlastní název přijímače"
+
+msgid "Custom box name"
+msgstr "Vlastní název přijímače"
+
+msgid "OSD"
+msgstr ""
+
+msgid "Playback"
+msgstr "Přehrát"
+
+msgid "Playlist"
+msgstr ""
+
+msgid "Power Control"
+msgstr "Napájení"
+
+msgid "Provider"
+msgstr "Poskytovatel"
+
+msgid "Providers"
+msgstr "Poskytovatelé"
+
+msgid "Radio"
+msgstr "Rádio"
+
+msgid "Reboot Box"
+msgstr "Restartovat Box"
+
+msgid "Recording Status"
+msgstr "Stav nahrávání"
+
+msgid "Refresh"
+msgstr "Aktualizovat"
+
+msgid "Refresh automatically every"
+msgstr "Aktualizovat každých"
+
+msgid "Refresh Timer"
+msgstr "Aktualizovat"
+
+msgid "Remote"
+msgstr "Ovladač"
+
+msgid "Rename Recording"
+msgstr "Přejmenovat nahrávku"
+
+msgid "Repeated"
+msgstr "Opakování"
+
+msgid "Restart GUI"
+msgstr "Restart Enigma"
+
+msgid "running"
+msgstr "probíhá"
+
+msgid "Satellites"
+msgstr "Satelity"
+
+msgid "Satfinder"
+msgstr ""
+
+msgid "Save"
+msgstr "Uložit"
+
+msgid "Screenshot"
+msgstr "Snímek obrazovky"
+
+msgid "Search"
+msgstr "Hledat"
+
+msgid "Search IMDb"
+msgstr "Prohledat IMDb"
+
+msgid "seconds"
+msgstr "sekund"
+
+msgid "Send Message"
+msgstr "Odeslat zprávu"
+
+msgid "Waiting for answer ..."
+msgstr "Čekání na odpověď ..."
+
+msgid "Send a Message"
+msgstr "Odeslat zprávu"
+
+msgid "Service"
+msgstr "Program"
+
+msgid "Bouquet Editor"
+msgstr "Editor přehledů"
+
+msgid "(shift + click for long pressure)"
+msgstr "(dlouhý stisk = shift + klik)"
+
+msgid "Show Full OpenWebif"
+msgstr "zobrazit plný OpenWebif"
+
+msgid "Show full remote"
+msgstr "úplný ovladač"
+
+msgid "Show EPG for"
+msgstr "zobrazit EPG pro"
+
+msgid "Shutdown"
+msgstr "Vypnout"
+
+msgid "Site and sources"
+msgstr "Umístění a zdroje"
+
+msgid "SNR"
+msgstr ""
+
+msgid "Software"
+msgstr ""
+
+msgid "Standby"
+msgstr "Standby"
+
+msgid "Standby Toggle"
+msgstr "Přepnout Standby"
+
+msgid "Start time is after end time"
+msgstr "Čas začátku je větší než čas konce "
+
+msgid "Start Instant Record"
+msgstr "Spustit okamžité nahrávání"
+
+msgid "Stream"
+msgstr "Stream"
+
+msgid "Subnet mask"
+msgstr "Maska"
+
+msgid "Subservices"
+msgstr "Podprogramy"
+
+msgid "Tags"
+msgstr "Tagy"
+
+msgid "Teletext"
+msgstr ""
+
+msgid "Television"
+msgstr "Televize"
+
+msgid "Template Engine"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Time"
+msgstr "Čas"
+
+msgid "Timeout"
+msgstr "Trvání"
+
+msgid "Timer added"
+msgstr "Časovač přidán"
+
+msgid "Timerlist"
+msgstr "Přehled časovačů"
+
+msgid "New Name"
+msgstr "Nový název"
+
+msgid "Autotimer Preview"
+msgstr "Přehled Autotimerů"
+
+msgid "Timer"
+msgstr "Časovač"
+
+msgid "Timers"
+msgstr "Časovače"
+
+msgid "Title"
+msgstr "Název"
+
+msgid "Total Memory"
+msgstr "Celková paměť"
+
+msgid "Tuner Bit Error Rate BER"
+msgstr "Bitová chyba signálu BER"
+
+msgid "Tuner Number (0-3)"
+msgstr "Čislo tuneru (-)"
+
+msgid "Tuner Signal"
+msgstr "Signál tuneru"
+
+msgid "Tuner Signal Quality SNR"
+msgstr "Kvalita signálu SNR"
+
+msgid "Tuner Signal Quality SNR_DB"
+msgstr "Kvalita signálu SNR_DB"
+
+msgid "Tuner Signal Power AGC"
+msgstr "Síla signálu AGC"
+
+msgid "Tuner Type"
+msgstr "Typ tuneru"
+
+msgid "Tuners"
+msgstr "Tunery"
+
+msgid "TV"
+msgstr ""
+
+msgid "TV Multi EPG"
+msgstr ""
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Upcoming Events"
+msgstr "Nadcházející události"
+
+msgid "Version"
+msgstr "Verze"
+
+msgid "Video"
+msgstr ""
+
+msgid "Video Height"
+msgstr "Výška videa"
+
+msgid "Video Wide"
+msgstr "Širokoúhlé"
+
+msgid "Video Width"
+msgstr "Šířka videa"
+
+msgid "Volume"
+msgstr "Hlasitost"
+
+msgid "Volume Control"
+msgstr "Hlasitost"
+
+msgid "waiting"
+msgstr "čekání"
+
+msgid "Warning"
+msgstr "Varování"
+
+msgid "Yes/No"
+msgstr "Ano/Ne"
+
+msgid "Zap"
+msgstr "Přepnout"
+
+msgid "zap before Stream"
+msgstr "přepnout před"
+
+msgid "Zap to"
+msgstr "Přepínám na"
+
+msgid "Zapped to"
+msgstr "Přepnuto na"
+
+msgid "Translation to Spanish"
+msgstr "Překlad do španělštiny"
+
+msgid "All Files of this Software are open source software;"
+msgstr "Všechny soubory tohoto software jsou open source software;"
+
+msgid "you can redistribute it and/or modify it under the"
+msgstr "můžete je distribuovat a/nebo modifikovat podle"
+
+msgid "terms of the GNU General Public License version 2 as"
+msgstr "podmínek GNU General Public License verze 2 jako"
+
+msgid "published by the Free Software Foundation."
+msgstr ""
+
+msgid ""
+"All Files of this Software are open source software; you can redistribute it "
+"and/or modify it under the terms of the GNU General Public License version 2 "
+"as published by the Free Software Foundation."
+msgstr ""
+"Všechny soubory tohoto software jsou open source software; můžete je "
+"distribuovat a/nebo modifikovat podle podmínek GNU General Public License "
+"verze 2 jako published by the Free Software Foundation."
+
+msgid "Root"
+msgstr "root"
+
+msgid "AutoTimer List"
+msgstr "Přehled AutoTimerů"
+
+msgid "AutoTimer Edit"
+msgstr "Upravit AutoTimer"
+
+msgid "Match title"
+msgstr "Hledat v názvu"
+
+msgid "EPG encoding"
+msgstr "Kódování EPG"
+
+msgid "Search type"
+msgstr "Typ hledání"
+
+msgid "partial match"
+msgstr "částečná shoda"
+
+msgid "exact match"
+msgstr "přesně odpovídá"
+
+msgid "description match"
+msgstr "Popis odpovídá"
+
+msgid "title or description match"
+msgstr ""
+
+msgid "title or short description match"
+msgstr ""
+
+msgid "short description match"
+msgstr ""
+
+msgid "start match"
+msgstr ""
+
+msgid "Search strictness"
+msgstr "Přesnost hledání"
+
+msgid "case-sensitive search"
+msgstr "rozlišovat malá a velká písmena"
+
+msgid "case-insensitive search"
+msgstr "nerozlišovat velká a malá písmena"
+
+msgid "Timer type"
+msgstr "Typ časovače"
+
+msgid "record"
+msgstr "nahrát"
+
+msgid "zap"
+msgstr "přepnout"
+
+msgid "Override found with alternative service"
+msgstr "Přepsat nalezené alternativním programem"
+
+msgid "Only match during timespan"
+msgstr "Jen odpovídající časovému úseku"
+
+msgid "Begin of timespan"
+msgstr "Začátek časového úseku"
+
+msgid "End of Timespan"
+msgstr "Konec časového úseku"
+
+msgid "Restrict to events on certain dates"
+msgstr "Omezit události na určité datum"
+
+msgid "Not after"
+msgstr "Ne po"
+
+msgid "Not before"
+msgstr "Ne před"
+
+msgid "Custom offset"
+msgstr "Vlastní posun"
+
+msgid "Offset before recording (in m)"
+msgstr "Posun před nahráváním (v minutách)"
+
+msgid "Offset after recording (in m)"
+msgstr "Posun po nahrávání (v minutách)"
+
+msgid "Set maximum duration"
+msgstr "Nastavit maximální délku trvání"
+
+msgid "After event"
+msgstr "Po skončení"
+
+msgid "standard"
+msgstr ""
+
+msgid "auto"
+msgstr "automaticky"
+
+msgid "do nothing"
+msgstr "nic nedělat"
+
+msgid "go to standby"
+msgstr "přejít do pohotovostního režimu"
+
+msgid "go to deep standby"
+msgstr "přejít do hlubokého spánku"
+
+msgid "Execute \"after event\" during timespan"
+msgstr ""
+
+msgid "Begin of \"after event\" timespan"
+msgstr ""
+
+msgid "End of \"after event\" timespan"
+msgstr ""
+
+msgid "Record a maximum of x times"
+msgstr "Nahrát maximálně x-krát"
+
+msgid "Amount of recordings left"
+msgstr "Zbývá nahrávek"
+
+msgid "Never"
+msgstr "nikdy"
+
+msgid "Monthly"
+msgstr "měsíčně"
+
+msgid "Weekly (Sunday)"
+msgstr "týdně (neděle)"
+
+msgid "Weekly (Monday)"
+msgstr "týdně (pondělí)"
+
+msgid "Reset count"
+msgstr "Vynulovat počítadlo"
+
+msgid "Require description to be unique"
+msgstr "Vyžadovat unikátní popis"
+
+msgid "No"
+msgstr "Ne"
+
+msgid "On same service"
+msgstr "na stejném programu"
+
+msgid "On any service"
+msgstr "na libovolném programu"
+
+msgid "Any service/recording"
+msgstr "libovolný program/nahrávání"
+
+msgid "Use a custom location"
+msgstr "Použít vlastní umístění"
+
+msgid "select Tags"
+msgstr "vyberte tagy"
+
+msgid "select Channels"
+msgstr "Vybrat kanály"
+
+msgid "select Bouquets"
+msgstr "vybrat přehledy"
+
+msgid "Enable Filtering"
+msgstr "Povolit filtrování"
+
+msgid "Include"
+msgstr "včetně"
+
+msgid "Exclude"
+msgstr "kromě"
+
+msgid "in Title"
+msgstr "v názvu"
+
+msgid "in Shortdescription"
+msgstr "v krátkém popisu"
+
+msgid "in Description"
+msgstr "v popisu"
+
+msgid "on Weekday"
+msgstr "den v týdnu"
+
+msgid "Weekend"
+msgstr "Víkend"
+
+msgid "Weekday"
+msgstr "Den týdne"
+
+msgid "VPS"
+msgstr ""
+
+msgid "VPS Overwrite"
+msgstr "VPS řízeno vysíláním"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "Delete"
+msgstr "Odstranit"
+
+msgid "Reload"
+msgstr "Znovu načíst"
+
+msgid "Parse"
+msgstr ""
+
+msgid "Simulate"
+msgstr "Simulace"
+
+# New Autotimer Setting Windows name (not enabled to transfer atm)
+msgid "AutoTimer Settings"
+msgstr ""
+
+msgid "AutoPoll"
+msgstr ""
+
+msgid "Interval (in h)"
+msgstr ""
+
+msgid "Max Days"
+msgstr ""
+
+msgid "Try Guessing"
+msgstr ""
+
+msgid "Fastscan"
+msgstr ""
+
+msgid "Show in Extensionsmenu"
+msgstr ""
+
+msgid "Disabled on Conflict"
+msgstr ""
+
+msgid "Add Similar on Conflict"
+msgstr ""
+
+msgid "Notify if Conflict"
+msgstr ""
+
+msgid "Notify if Similar"
+msgstr ""
+
+msgid "Add Autotimer to Tags"
+msgstr ""
+
+msgid "Add Name to Tags"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Plain"
+msgstr ""
+
+msgid "Wizzard"
+msgstr ""
+
+msgid "Do you really want to delete the AT"
+msgstr "Opravdu chcete odstranit AT"
+
+msgid "Label series"
+msgstr ""
+
+msgid "Enable Messages"
+msgstr "Povolit zprávy"
+
+msgid "Delay Standby"
+msgstr "Zpoždění"
+
+msgid "Interval (min.)"
+msgstr ""
+
+msgid "Interval (sec.)"
+msgstr ""
+
+msgid "Afterevent"
+msgstr "Po události"
+
+msgid "Force"
+msgstr "Vynutit aktualizaci"
+
+msgid "Wakeup"
+msgstr "Probudit"
+
+msgid "Inherit Autotimer"
+msgstr "Převzít z Autotimeru"
+
+msgid "Parse Autotimer"
+msgstr ""
+
+msgid "Always"
+msgstr "Vždy"
+
+msgid "Background only"
+msgstr "Pouze na pozadí"
+
+msgid "Ask, default Yes"
+msgstr "Požádat, defaultně Ano"
+
+msgid "Ask, default No"
+msgstr "Požádat, defaultně Ne"
+
+msgid "Method"
+msgstr "Metoda"
+
+msgid "Visibly"
+msgstr "Hlavní obraz"
+
+msgid "Picture in Picture"
+msgstr "Obraz v obraze (PIP)"
+
+msgid "Picture in Picture (hidden)"
+msgstr "Obraz v obraze (skryté)"
+
+msgid "Fake Recording"
+msgstr "Falešné nahrávání"
+
+msgid "Refresh now"
+msgstr "Zaktualizovat"
+
+msgid "Add Provider as new Bouquet"
+msgstr "Přidat poskytovatele jako nový přehled"
+
+msgid "Add channel(s) to Bouquet"
+msgstr "Přidat kanál(y) do přehledu"
+
+msgid "Add channel(s) as alternate"
+msgstr "Přidat kanál(y) jako alternativu"
+
+msgid "Export"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Add Bouquet"
+msgstr "Přidat přehled"
+
+msgid "Rename Bouquet"
+msgstr "Přejmenovat přehled"
+
+msgid "Delete Bouquet"
+msgstr "Odstranit přehled"
+
+msgid "Add Marker"
+msgstr "Přidat značku"
+
+msgid "Rename"
+msgstr "Přejmenovat"
+
+msgid "Delete Channel(s)"
+msgstr "Odstranit kanál(y)"
+
+msgid "Do you really want to delete the channel(s)"
+msgstr "Skutečně chcete odstranit kanál(y)"
+
+msgid "Do you really want to delete the bouquet"
+msgstr "Skutečně chcete odstranit přehled"
+
+msgid "Name of the Bouquet"
+msgstr "Název přehledu"
+
+msgid "Name of the Marker"
+msgstr "Název značky"
+
+msgid "Enter new name for the bouquet"
+msgstr "Zadejte nový název pro přehled"
+
+msgid "Enter new name for the marker"
+msgstr "Zadejte nový název pro značku"
+
+msgid "Please enter filename"
+msgstr "Zadejte název souboru"
+
+msgid "Do you really want to restore from file"
+msgstr "Opravdu chcete obnovit ze souboru"
+
+msgid "OpenWebif url: http://yourip:port"
+msgstr "OpenWebif url: http://vašeip:port"
+
+msgid "OpenWebInterface Enabled"
+msgstr "Povolit OpenWebInterface"
+
+msgid "HTTP port"
+msgstr "HTTP port"
+
+msgid "Enable HTTP Authentication"
+msgstr "Povolit HTTP ověřování"
+
+msgid "Enable HTTPS"
+msgstr "Povolit HTTPS"
+
+msgid "HTTPS port"
+msgstr "HTTPS port"
+
+msgid "Enable HTTPS Authentication"
+msgstr "Povolit HTTPS ověřování"
+
+msgid "Require client cert for HTTPS"
+msgstr "Požadovat klientskou certifikaci pro HTTPS"
+
+msgid "Enable Authentication for streaming"
+msgstr "Povolit ověřování pro streamování"
+
+msgid "Disable access for user root"
+msgstr "Zakázat přístup pro uživatele root"
+
+msgid "Smart services renaming for XBMC"
+msgstr "Chytré přejmenování programů pro XBMC"
+
+msgid "Enable Parental Control"
+msgstr "Povolit rodičovskou kontrolu"
+
+msgid "Add service name to stream information"
+msgstr "Přidat název programu do stream informací"
+
+msgid "Character encoding for EPG data"
+msgstr "Kódování znaků pro EPG data"
+
+msgid "OpenWebif Configuration"
+msgstr "Nastavení OpenWebif"
+
+msgid "transcoded"
+msgstr ""
+
+msgid "System OE"
+msgstr ""
+
+msgid "Distro"
+msgstr ""
+
+msgid "Driver date"
+msgstr ""
+
+msgid "Conflicting Timer(s) detected! %s"
+msgstr "Detekován(y) konfliktní časovač(e) %s"
+
+msgid "Could not add timer '%s'!"
+msgstr "Nelze přidat časovač '%s'!"
+
+msgid "Timer '%s' added"
+msgstr "Přidán časovač '%s'"
+
+msgid "EventId not found"
+msgstr "Eventid nenalezeno"
+
+msgid "Timer '%s' changed"
+msgstr "Časovač '%s' změněn"
+
+msgid "Timer '%s' not saved while Conflict"
+msgstr "Časovač '%s' nebyl kvůli konfliktu uložen"
+
+msgid "Could not find timer '%s' with given start and end time!"
+msgstr "Nebylo možné nalézt  časovač '%s' se zadaným časem začátku a konce!"
+
+msgid "The timer '%s' has been deleted successfully"
+msgstr "Časovač '%s' byl úspěšně odstraněn"
+
+msgid "No matching Timer found"
+msgstr "Nenalezen odpovídající časovač"
+
+msgid "The timer '%s' has been %s successfully"
+msgstr "Časovač '%s' byl úspěšně %s"
+
+msgid "List of Timers has been cleaned"
+msgstr "Seznam časovačů byl vyčištěn"
+
+msgid "TimerList has been saved"
+msgstr "Seznam časovačů byl uložen"
+
+msgid "No event found! Not recording!"
+msgstr "Nenalezena událost! Nenahrává se!"
+
+msgid "Instant record for current Event started"
+msgstr "Začalo okamžité nahrávání pro aktuální událost"
+
+msgid "Infinite Instant recording started"
+msgstr "Začalo neomezené okamžité nahrávání"
+
+msgid "Timer conflict detected! Not recording!"
+msgstr "Konflikt časovačů! Nenahrává se!"
+
+msgid "Missing requesteter: sRef"
+msgstr "Chybějící požadavek: sRef"
+
+msgid "Unknown command: '%s'"
+msgstr "Neznámý příkaz: '%s'"
+
+msgid "PowerTimer feature not available"
+msgstr ""
+
+msgid "Sleeptimer is enabled"
+msgstr "Časovač usínání je povolen"
+
+msgid "Sleeptimer is disabled"
+msgstr "Časovač usínání je zakázán"
+
+msgid "SleepTimer feature not available"
+msgstr "Časovač usínání není dostupný"
+
+msgid "ERROR: Cannot set SleepTimer while device is in Standby-Mode"
+msgstr "CHYBA: nelze nastavit časovač usínání, jestliže je přijímač ve stanby"
+
+msgid "Sleeptimer has been disabled"
+msgstr "Časovač usínání byl zakázán"
+
+msgid "Sleeptimer set to %d minutes"
+msgstr "Časovač usínání nastaven na %d minut"
+
+msgid "Safe mode"
+msgstr "Bezpečný mód"
+
+msgid "Close"
+msgstr "Zavřít"
+
+msgid "Open in new window"
+msgstr "Otevřít v novém okně"
+
+msgid "Include description"
+msgstr ""
