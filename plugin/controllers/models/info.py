@@ -171,6 +171,73 @@ def getInfo():
 		elif model.startswith("spark"):
 			if model == "spark7162":
 				chipset = "SH4 @540MHz"
+	elif fileExists("/proc/stb/info/hwmodel",'r'): # divide to brand model.
+		f = open("/proc/stb/info/hwmodel",'r')
+		f_model = f.readline().strip().lower()
+		if f_model.startswith("me"):
+			model = "Mediabox HD LX-1"
+			brand = "Jepssen"
+		elif f_model.startswith("op"):
+			model = f_model[0:1].upper() + f_model[1:8].lower() + " " + f_model[8:].upper() # optimussos1 ==> Optimuss OS1
+			brand = "Edision"
+		elif f_model.startswith("force1p"):
+			if fileExists("/etc/.brandtype"):
+				b = open("/etc/.brandtype",'r')
+				b_brand = b.readline().strip().lower()
+				if b_brand.startswith("ed"):
+					model = "Optimuss OS3+"
+					brand = "Edision"
+				elif b_brand.startswith("te"):
+					model = "TM-NANO-3T COMBO"
+					brand = "Technomate"
+				elif b_brand.startswith("sw"):
+					model = "Force1+"
+					brand = "4D"
+				elif b_brand.startswith("wo"):
+					model = "Force1+"
+					brand = "Worldvision"
+				else:
+					model = "Force1+"
+					brand = "Iqon"
+				b.close()
+		elif f_model.startswith("optimussos"):
+			model = "Optimuss OS"
+			brand = "Edision"
+		elif f_model.startswith("force2plus"):
+			model = "force2plus"
+			brand = "Iqon"
+		elif f_model.startswith("force2se"):
+			model = "force2se"
+			brand = "Iqon"
+		elif f_model.startswith("force2"):
+			model = "force2"
+			brand = "Iqon"
+		elif f_model.startswith("tmnanosecombo"):
+			model = "TM-NANO-SE Combo"
+			brand = "Technomate"
+		elif f_model.startswith("tmnanosem2"):
+			model = "TM-NANO-SE M2"
+			brand = "Technomate"
+		elif f_model.startswith("tmnanoseplus"):
+			model = "TM-NANO-SE Plus"
+			brand = "Technomate"
+		elif f_model.startswith("tmnanose"):
+			model = "TM-NANO-SE"
+			brand = "Technomate"
+		elif f_model.startswith("fusionhdse"):
+			model = "FUSION HD SE"
+			brand = "Xsarius"
+		elif f_model.startswith("fusionhd"):
+			model = "FUSION HD"
+			brand = "Xsarius"
+		else:
+			model = f_model
+			if fileExists("/etc/.brandtype"):
+				b = open("/etc/.brandtype",'r')
+				b_brand = b.readline().strip().lower()
+				brand = b_brand[0:1].upper() + b_brand[1:].lower()
+				b.close()
+		f.close()
 			else:
 				chipset = "SH4 @450MHz"
 	elif fileExists("/proc/stb/info/azmodel"):
