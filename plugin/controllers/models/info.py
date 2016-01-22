@@ -147,7 +147,11 @@ def getInfo():
 	info['machinebuild'] = getMachineBuild()
 
 	chipset = "unknown"
-	if fileExists("/etc/.box"):
+        if fileExists("/proc/stb/info/hwmodel"):
+                f = open("/proc/stb/info/hwmodel")
+                model = f.readline().strip().lower()
+                f.close()
+	elif fileExists("/etc/.box"):
 		f = open("/etc/.box",'r')
 		model = f.readline().strip().lower()
 		f.close()

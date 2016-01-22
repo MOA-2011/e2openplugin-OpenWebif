@@ -127,10 +127,9 @@ def getAllInfo():
 	# [IQON : brand type read :by babel
 	if fileExists("/etc/.brandtype"):
 		ret_brand = open("/etc/.brandtype").read().strip().lower()
-		f.close()
+                brand = ret_brand
 		
 	if fileExists("/proc/stb/info/hwmodel"):
-		brand = ret_brand
 		f = open("/proc/stb/info/hwmodel",'r')
 		procmodel = f.readline().strip()
 		f.close()
@@ -143,8 +142,8 @@ def getAllInfo():
                             model = procmodel.replace("fusionhd", "Fusion HD")
                         elif procmodel == "fusionhdse":
                             model = procmodel.replace("fusionhdse", "Fusion HD SE")
-		else:
-			brand = procmodel
+                else:
+                        model = procmodel.lower()
 							
 	elif fileExists("/proc/stb/info/azmodel"):
 		brand = "AZBox"
@@ -384,45 +383,45 @@ def getAllInfo():
 	elif procmodel in ("dm7080", "dm7020hd", "dm7020hdv2", "dm800sev2", "dm500hdv2", "dm820"):
 		remote = "dmm2"
 
-	elif brand == "technomate":
+	elif ret_brand == "technomate":
 		if procmodel in ("tmnanooe", "tmsingle"):
-			ret["remote"] = "te_type1"
+			remote = "te_type1"
 		else:
 			if procmodel in ("force1plus", "force2plus", "tmnanose", "tmnanosecombo"):
-				ret["remote"] = "te_type3"
+				remote = "te_type3"
 			elif procmodel in ("force1", "tmnano2super"):
-				ret["remote"] = "te_type2"
+				remote = "te_type2"
 			elif procmodel in ("tmnanosem2", "tmnanoseplus"):
-				ret["remote"] = "te_type4"
+				remote = "te_type4"
 			else:
-				ret["remote"] = "te_type0"
-	elif brand == "swiss":
+				remote = "te_type0"
+	elif ret_brand == "swiss":
 		if procmodel in ("force1plus", "force1"):
-			ret["remote"] = "sw_type0"
-	elif brand == "edision":
+			remote = "sw_type0"
+	elif ret_brand == "edision":
 		if procmodel in ("force1plus"):
-			ret["remote"] = "ed_type0"
+			remote = "ed_type0"
 		elif procmodel in ("optimussos1plus", "optimussos2plus", "optimussos"):
-			ret["remote"] = "ed_type1"
-	elif brand == "worldvision":
+			remote = "ed_type1"
+	elif ret_brand == "worldvision":
 		if procmodel in ("force1plus", "force1", "force2", "force2solid"):
-			ret["remote"] = "wo_type0"
-	elif brand == "xsarius":
+			remote = "wo_type0"
+	elif ret_brand == "xsarius":
 		if procmodel in ("fusionhd"):
-			ret["remote"] = "fusionhd"
+			remote = "fusionhd"
 		elif procmodel in ("fusionhdse"):
-			ret["remote"] = "fusionhdse"
+			remote = "fusionhdse"
 		else:
-			ret["remote"] = "iqon"
-	elif brand == "iqon":
+			remote = "iqon"
+	elif ret_brand == "iqon":
 		if procmodel in ("force1plus", "force1"):
-			ret["remote"] = "wo_type0"
+			remote = "wo_type0"
 		else:
-			ret["remote"] = "iqon"
+			remote = "iqon"
 
-	print "[DEBUGGING] : BRAND", brand
+	print "[DEBUGGING] : BRAND", ret_brand
 	print "[DEBUGGING] : MODEL", procmodel
-	print "[DEBUGGING] : ret.remote", ret["remote"]
+#	print "[DEBUGGING] : ret.remote", ret["remote"]
 
 	info['remote'] = remote
 
