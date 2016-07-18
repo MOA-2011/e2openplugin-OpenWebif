@@ -142,6 +142,8 @@ def getAllInfo():
                             model = procmodel.replace("fusionhd", "Fusion HD")
                         elif procmodel == "fusionhdse":
                             model = procmodel.replace("fusionhdse", "Fusion HD SE")
+                        elif procmodel == "purehd":
+                            model = procmodel.replace("purehd", "Pure HD")
                 else:
                         model = procmodel.lower()
 							
@@ -411,6 +413,8 @@ def getAllInfo():
 			remote = "fusionhd"
 		elif procmodel in ("fusionhdse"):
 			remote = "fusionhdse"
+		elif procmodel in ("purehd"):
+			remote = "purehd"
 		else:
 			remote = "iqon"
 	elif ret_brand == "iqon":
