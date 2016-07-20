@@ -406,7 +406,7 @@ def getAllInfo():
 		elif procmodel in ("optimussos1plus", "optimussos2plus", "optimussos"):
 			remote = "ed_type1"
 	elif ret_brand == "worldvision":
-		if procmodel in ("force1plus", "force1", "force2", "force2solid"):
+		if procmodel in ("force1plus", "force1", "force2", "force2solid", "force2se"):
 			remote = "wo_type0"
 	elif ret_brand == "xsarius":
 		if procmodel in ("fusionhd"):
@@ -489,7 +489,7 @@ def getAllInfo():
 			# Todo: Detect OpenPLi 3.0
 			if has_ipv6:
 				# IPv6 support for Python was added in 4.0
-				imagever = "4.0"
+				imagever = about.getImageVersion()
 				oever = "PLi-OE"
 				imagelist = imagever.split('.')
 				imagebuild = imagelist.pop()
