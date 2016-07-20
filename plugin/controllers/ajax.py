@@ -92,9 +92,103 @@ class AjaxController(BaseController):
 	def P_boxinfo(self, request):
 		info = getInfo()
 		type = getBoxType()
+                print "##### getBoxType", getBoxType()
+                if fileExists("/etc/.brandtype"):
+                        ret_brand = open("/etc/.brandtype").read().strip().lower()
+			if ret_brand == "technomate":
+				if type == "TM-NANO-3T COMBO":
+					type = "tmnano3tcombo"
+				elif type == "tmnano2super":
+					type = "te_tmnano2super"
+				elif type == "TM-NANO-SE":
+					type = "tmnanose"
+				elif type == "TM-NANO-SE Combo":
+					type = "tmnanosecombo"
+				elif type == "TM-NANO-SE M2":
+					type = "tmnanosem2"
+				elif type == "TM-NANO-SE Plus":
+					type = "tmnanoseplus"
+				else:
+					type = getBoxType()
+			elif ret_brand == "edision":
+				if type.endswith("OS1"):
+					type = "optimussos1"
+				elif type.endswith("OS2"):
+					type = "optimussos2"
+				elif type.endswith("OS1PLUS"):
+					type = "ed_op1plus"
+				elif type.endswith("OS2PLUS"):
+					type = "ed_op2plus"
+				elif type.endswith("OS3+"):
+					type = "ed_force1plus"
+				elif type.endswith("OS"):
+					type = "optimussos"
+				else:
+					type = getBoxType()
+			elif ret_brand == "worldvision":
+				if type == "Force1+":
+					type = "wo_force1plus"
+				elif type == "force1":
+					type = "wo_force1"
+				elif type == "force2solid":
+					type = "wo_force2solid"
+				elif type == "force2":
+					type = "wo_force2solid"
+				else:
+					type = getBoxType()
+			elif ret_brand == "swiss":
+				if type == "Force1+":
+					type = "sw_force1plus"
+				elif type == "force1":
+					type = "sw_force1"
+				else:
+					type = getBoxType()
+			elif ret_brand == "xsarius":
+				if type == "FUSION HD":
+					type = "fusionhd"
+				elif type == "FUSION HD SE":
+					model = "fusionhdse"
+				elif type == "PURE HD":
+					model = "purehd"
+				elif type == "SELF SAT":
+					type = "selfsat"
+				else:
+					type = getBoxType()
+			elif ret_brand  == "iqon":
+				if type == "Force1+":
+					type = "iq_force1plus"
+				elif type == "force1":
+					type = "iq_force1"
+				elif type == "force2":
+					type = "iq_force2"
+				elif type == "force2solid":
+					type = "iq_force2"
+				elif type == "force2plus":
+					type = "iq_force2plus"
+				elif type == "force2se":
+					type = "iq_force2se"
+				elif type == "force2nano":
+					type = "iq_force2nano"
+				elif type == "PURE HD":
+					type = "purehd"
+				elif type == "SELF SAT":
+					type = "selfsat"
+				elif type == "ios100hd":
+					type = "iq_ios100"
+				elif type == "ios200hd":
+					type = "iq_ios200"
+				elif type == "ios300hd":
+					type = "iq_ios300"
+				elif type == "ios300newhd":
+					type = "iq_ios300new"
+				else:
+					type = getBoxType()
+			else:
+				model = getBoxType()
 
 		if fileExists(getPublicPath("/images/boxes/"+type+".jpg")):
 			info["boximage"] = type+".jpg"
+                        print "##### boximage", info["boximage"]
 		else:
 			info["boximage"] = "unknown.jpg"
 		return info
