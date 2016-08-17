@@ -169,6 +169,8 @@ class AjaxController(BaseController):
 					type = "iq_force2se"
 				elif type == "force2nano":
 					type = "iq_force2nano"
+				elif type == "force2plushv":
+					type = "iq_force2plushv"
 				elif type == "PURE HD":
 					type = "purehd"
 				elif type == "SELF SAT":
