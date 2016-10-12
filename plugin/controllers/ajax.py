@@ -173,6 +173,14 @@ class AjaxController(BaseController):
 					type = "iq_force2plushv"
 				elif type == "PURE HD":
 					type = "purehd"
+				elif type == "force3":
+					type ="iq_force3"
+				elif type == "force3se":
+					type ="iq_force3se"
+				elif type == "force3uhd":
+					type ="iq_force3uhd"
+				elif type == "force3uhdplus":
+					type ="iq_force3uhdplus"
 				elif type == "SELF SAT":
 					type = "selfsat"
 				elif type == "ios100hd":
