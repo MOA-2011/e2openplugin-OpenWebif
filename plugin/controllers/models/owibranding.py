@@ -393,7 +393,7 @@ def getAllInfo():
 				remote = "te_type3"
 			elif procmodel in ("force1", "tmnano2super"):
 				remote = "te_type2"
-			elif procmodel in ("tmnanosem2", "tmnanoseplus"):
+			elif procmodel in ("tmnanosem2", "tmnanoseplus", "tmminise"):
 				remote = "te_type4"
 			else:
 				remote = "te_type0"
