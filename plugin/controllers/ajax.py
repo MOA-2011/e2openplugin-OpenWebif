@@ -110,6 +110,8 @@ class AjaxController(BaseController):
 					type = "tmnanoseplus"
 				elif type == "TM-NANO M3":
 					type = "tmnanom3"
+				elif type == "TM-TWIN 4K":
+					type = "tmtwin4k"
 				else:
 					type = getBoxType()
 			elif ret_brand == "edision":
