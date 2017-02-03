@@ -389,7 +389,7 @@ def getAllInfo():
 		if procmodel in ("tmnanooe", "tmsingle"):
 			remote = "te_type1"
 		else:
-			if procmodel in ("force1plus", "force2plus", "tmnanose", "tmnanosecombo"):
+			if procmodel in ("force1plus", "force2plus", "tmnanose", "tmnanosecombo", "tmtwin4k"):
 				remote = "te_type3"
 			elif procmodel in ("force1", "tmnano2super"):
 				remote = "te_type2"
@@ -397,8 +397,6 @@ def getAllInfo():
 				remote = "te_type4"
 			elif procmodel in ("tmnanom3"):
 				remote = "tmnanom3"
-			elif procmodel in ("tmtwin4k"):
-				remote = "tmtwin4k"
 			else:
 				remote = "te_type0"
 	elif ret_brand == "swiss":
