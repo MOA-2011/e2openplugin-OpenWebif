@@ -154,6 +154,8 @@ class AjaxController(BaseController):
 					model = "fusionhdse"
 				elif type == "PURE HD":
 					model = "purehd"
+				elif type == "REVO 4K"
+					model = "revo4k"
 				elif type == "SELF SAT":
 					type = "selfsat"
 				else:
