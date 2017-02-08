@@ -136,18 +136,16 @@ def getAllInfo():
 		if (procmodel.startswith("optimuss") or procmodel.startswith("pingulux")):
 			brand = "Edision"
 			model = procmodel.replace("optimmuss", "Optimuss ").replace("plus", " Plus").replace(" os", " OS")
-		elif (procmodel.startswith("fusion")):
-			brand = "Xsarius"
-			if procmodel == "fusionhd":
-				model = procmodel.replace("fusionhd", "Fusion HD")
-			elif procmodel == "fusionhdse":
-				model = procmodel.replace("fusionhdse", "Fusion HD SE")
-			elif procmodel == "revo4k":
-				model = procmodel.replace("revo4k", "REVO 4K")
-			elif procmodel == "purehd":
-				model = procmodel.replace("purehd", "Pure HD")
-			else:
-				model = procmodel.lower()
+                elif (procmodel.startswith("fusion")):
+                        brand = "Xsarius"
+                        if procmodel == "fusionhd":
+                            model = procmodel.replace("fusionhd", "Fusion HD")
+                        elif procmodel == "fusionhdse":
+                            model = procmodel.replace("fusionhdse", "Fusion HD SE")
+                        elif procmodel == "purehd":
+                            model = procmodel.replace("purehd", "Pure HD")
+                else:
+                        model = procmodel.lower()
 							
 	elif fileExists("/proc/stb/info/azmodel"):
 		brand = "AZBox"
@@ -419,8 +417,6 @@ def getAllInfo():
 			remote = "fusionhdse"
 		elif procmodel in ("purehd"):
 			remote = "purehd"
-		elif procmodel in ("revo4k"):
-			remote = "revo4k"
 		else:
 			remote = "iqon"
 	elif ret_brand == "iqon":
