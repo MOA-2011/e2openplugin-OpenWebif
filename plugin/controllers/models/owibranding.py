@@ -417,12 +417,14 @@ def getAllInfo():
 			remote = "fusionhdse"
 		elif procmodel in ("purehd"):
 			remote = "purehd"
+		elif procmodel in ("revo4k", "galaxy4k"):
+			remote = "revo4k"
 		else:
 			remote = "iqon"
 	elif ret_brand == "iqon":
 		if procmodel in ("force1plus", "force1"):
 			remote = "wo_type0"
-		elif procmodel in ("force3uhd"):
+		elif procmodel in ("force3uhd", "force3uhdplus"):
 			remote = "iq_force3uhd"
 		else:
 			remote = "iqon"
