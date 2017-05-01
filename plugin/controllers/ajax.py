@@ -156,6 +156,8 @@ class AjaxController(BaseController):
 					model = "purehd"
 				elif type == "SELF SAT":
 					type = "selfsat"
+				elif type == "PURE HD SE":
+					model = "purehdse"
 				else:
 					type = getBoxType()
 			elif ret_brand  == "iqon":
@@ -195,6 +197,11 @@ class AjaxController(BaseController):
 					type = "iq_ios300"
 				elif type == "ios300newhd":
 					type = "iq_ios300new"
+				else:
+					type = getBoxType()
+			elif ret_brand  == "vala":
+				if type == "VALA Linux":
+					type = "valalinux"
 				else:
 					type = getBoxType()
 			else:
