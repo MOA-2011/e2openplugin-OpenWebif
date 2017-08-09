@@ -421,6 +421,11 @@ def getAllInfo():
 			remote = "revo4k"
 		else:
 			remote = "iqon"
+	elif ret_brand == "qviart":
+		if procmodel in ("lunix3-4k"):
+			remote = "lunix"
+		else:
+			remote = "lunix"
 	elif ret_brand == "iqon":
 		if procmodel in ("force1plus", "force1"):
 			remote = "wo_type0"
