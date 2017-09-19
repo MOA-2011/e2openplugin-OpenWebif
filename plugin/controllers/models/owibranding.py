@@ -426,6 +426,13 @@ def getAllInfo():
 			remote = "lunix"
 		else:
 			remote = "lunix"
+	elif ret_brand == "vala":
+		if procmodel in ("vala4klinux"):
+			remote = "vala4klinux"
+		elif procmodel in ("valaselinux"):
+			remote = "valalinux"
+		else:
+			remote = "valalinux"
 	elif ret_brand == "iqon":
 		if procmodel in ("force1plus", "force1"):
 			remote = "wo_type0"
