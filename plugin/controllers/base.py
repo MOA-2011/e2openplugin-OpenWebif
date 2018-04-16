@@ -203,7 +203,8 @@ class BaseController(resource.Resource):
 		if not ret['boxname'] or not ret['customname']:
 			ret['boxname'] = getInfo()['brand']+" "+getInfo()['model']
 		ret['box'] = getBoxType()
-		ret["remote"] = remote
+		ret['remote'] = remote
+		# print "###### remote : ", ret['remote']
 		from Components.config import config
 		if hasattr(eEPGCache, 'FULL_DESCRIPTION_SEARCH'):
 			ret['epgsearchcaps'] = True
