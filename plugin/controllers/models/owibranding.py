@@ -438,6 +438,8 @@ def getAllInfo():
 			remote = "wo_type0"
 		elif procmodel in ("force3uhd", "force3uhdplus"):
 			remote = "iq_force3uhd"
+		elif procmodel in ("force4"):
+			remote = "iq_force4"
 		else:
 			remote = "iqon"
 

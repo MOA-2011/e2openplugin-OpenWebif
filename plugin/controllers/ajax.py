@@ -92,9 +92,9 @@ class AjaxController(BaseController):
 	def P_boxinfo(self, request):
 		info = getInfo()
 		type = getBoxType()
-                print "##### getBoxType", getBoxType()
-                if fileExists("/etc/.brandtype"):
-                        ret_brand = open("/etc/.brandtype").read().strip().lower()
+		print "##### getBoxType", getBoxType()
+		if fileExists("/etc/.brandtype"):
+			ret_brand = open("/etc/.brandtype").read().strip().lower()
 			if ret_brand == "technomate":
 				if type == "TM-NANO-3T COMBO":
 					type = "tmnano3tcombo"
@@ -151,9 +151,9 @@ class AjaxController(BaseController):
 				if type == "FUSION HD":
 					type = "fusionhd"
 				elif type == "FUSION HD SE":
-					model = "fusionhdse"
+					type = "fusionhdse"
 				elif type == "PURE HD":
-					model = "purehd"
+					type = "purehd"
 				elif type == "SELF SAT":
 					type = "selfsat"
 				else:
@@ -195,14 +195,16 @@ class AjaxController(BaseController):
 					type = "iq_ios300"
 				elif type == "ios300newhd":
 					type = "iq_ios300new"
+				elif type == "force4":
+					type = "iq_force4"
 				else:
 					type = getBoxType()
 			else:
-				model = getBoxType()
+				type = getBoxType()
 
 		if fileExists(getPublicPath("/images/boxes/"+type+".jpg")):
 			info["boximage"] = type+".jpg"
-                        print "##### boximage", info["boximage"]
+			print "##### boximage", info["boximage"]
 		else:
 			info["boximage"] = "unknown.jpg"
 		return info
@@ -233,6 +235,7 @@ class AjaxController(BaseController):
 	def P_screenshot(self, request):
 		box = {}
 		box['brand'] = "dmm"
+		print "##### getMachineBrand()", getMachineBrand()
 		if getMachineBrand() == 'Vu+':
 			box['brand'] = "vuplus"
 		elif getMachineBrand() == 'GigaBlue':
@@ -245,6 +248,7 @@ class AjaxController(BaseController):
 			box['brand'] = "techomate"
 		elif fileExists("/proc/stb/info/azmodel"):
 			box['brand'] = "azbox"
+		print "##### box['brand']", box['brand']
 		return { "box": box }
 
 	def P_powerstate(self, request):
