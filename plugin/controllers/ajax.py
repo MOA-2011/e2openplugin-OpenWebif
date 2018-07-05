@@ -200,7 +200,7 @@ class AjaxController(BaseController):
 				else:
 					type = getBoxType()
                         elif ret_brand == "qviart":
-                                if type == "lunix24k"
+                                if type = "lunix24k"
 			else:
 				type = getBoxType()
 
