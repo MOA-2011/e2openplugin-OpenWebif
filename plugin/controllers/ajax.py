@@ -199,9 +199,6 @@ class AjaxController(BaseController):
 					type = "iq_force4"
 				else:
 					type = getBoxType()
-                        elif ret_brand == "qviart":
-                                if type == "lunix24k":
-                                        type = "lunix24"
 			else:
 				type = getBoxType()
 
