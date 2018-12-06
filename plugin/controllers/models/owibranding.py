@@ -429,10 +429,10 @@ def getAllInfo():
 		else:
 			remote = "lunix"
 	elif ret_brand == "vala":
-		if procmodel in ("vala4klinux"):
-			remote = "vala4klinux"
-		elif procmodel in ("valaselinux"):
-			remote = "valalinux"
+		if procmodel in ("valalinux4k"):
+			remote = "valalinux4k"
+		elif procmodel in ("valalinuxplus"):
+			remote = "valalinuxplus"
 		else:
 			remote = "valalinux"
 	elif ret_brand == "iqon":
