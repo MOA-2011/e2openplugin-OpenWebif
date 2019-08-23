@@ -423,9 +423,11 @@ def getAllInfo():
 			remote = "iqon"
 	elif ret_brand == "qviart":
 		if procmodel in ("lunix3-4k"):
-			remote = "lunix"
-		elif procmodel in ("lunix4k"): ## is force4smal remocontrol
+			remote = "lunix3-4k"
+		elif procmodel in ("lunix4k"): ## support MK rcu (lunix4k printing to bottom)
 			remote = "lunix4k"
+		elif procmodel in ("lunixco"): ## support new MK rcu (qviart printing to bottom)
+			remote = "lunixco"
 		else:
 			remote = "lunix"
 	elif ret_brand == "vala":
